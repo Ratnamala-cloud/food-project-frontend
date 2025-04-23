@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React,{ useContext, useState } from 'react';
 import './Navbar.css'
 import { assets } from '../../assets/assets';
@@ -66,3 +67,19 @@ const  Navbar= ({setShowLogin}) => {
 }
 
 export default Navbar
+=======
+import React from 'react'
+import './Navbar.css'
+import { assets } from '../../assets/assets'
+const Navbar = () => {
+    return (
+        <div className='navbar'>
+            <img className='logo' src={assets.logo_img} alt="" />
+            <img className='profile' src={assets.profile_image} alt="" />
+
+        </div>
+    )
+}
+
+export default Navbar
+>>>>>>> 78b24c6 (first commit)

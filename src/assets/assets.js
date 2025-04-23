@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import basket_icon from './basket_icon.png'
 import logo from './logo_img.png'
 import header_img from './header_img.png'
@@ -348,3 +349,22 @@ export const food_list = [
         category: "Noodles"
     }
 ]
+=======
+import logo_img from './logo_img.png'
+import add_icon from './add_icon.png'
+import order_icon from './order_icon.png'
+import profile_image from './profile_image.png'
+import upload_area from './upload_area.png'
+import parcel_icon from './parcel_icon.png'
+
+export const assets ={
+    logo_img,
+    add_icon,
+    order_icon,
+    profile_image,
+    upload_area,
+    parcel_icon
+}
+
+export const url = 'http://localhost:4000'
+>>>>>>> 78b24c6 (first commit)
